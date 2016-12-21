@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A4CA8C71E0A13970027AD9E /* JLRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CA8C61E0A13970027AD9E /* JLRingChart.m */; };
 		6A943C8A1E0116AD00289749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A943C891E0116AD00289749 /* main.m */; };
 		6A943C8D1E0116AD00289749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A943C8C1E0116AD00289749 /* AppDelegate.m */; };
 		6A943C901E0116AD00289749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A943C8F1E0116AD00289749 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A4CA8C51E0A13970027AD9E /* JLRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRingChart.h; sourceTree = "<group>"; };
+		6A4CA8C61E0A13970027AD9E /* JLRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRingChart.m; sourceTree = "<group>"; };
 		6A943C851E0116AD00289749 /* JLeeChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLeeChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A943C891E0116AD00289749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A943C8B1E0116AD00289749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A4CA8C81E0A151F0027AD9E /* JLRingChart */ = {
+			isa = PBXGroup;
+			children = (
+				6A4CA8C51E0A13970027AD9E /* JLRingChart.h */,
+				6A4CA8C61E0A13970027AD9E /* JLRingChart.m */,
+			);
+			name = JLRingChart;
+			sourceTree = "<group>";
+		};
 		6A943C7C1E0116AD00289749 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		6A943C871E0116AD00289749 /* JLeeChart */ = {
 			isa = PBXGroup;
 			children = (
+				6A4CA8C81E0A151F0027AD9E /* JLRingChart */,
 				6A943C8B1E0116AD00289749 /* AppDelegate.h */,
 				6A943C8C1E0116AD00289749 /* AppDelegate.m */,
 				6A943C8E1E0116AD00289749 /* ViewController.h */,
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4CA8C71E0A13970027AD9E /* JLRingChart.m in Sources */,
 				6A943C901E0116AD00289749 /* ViewController.m in Sources */,
 				6A943C8D1E0116AD00289749 /* AppDelegate.m in Sources */,
 				6A943C8A1E0116AD00289749 /* main.m in Sources */,
@@ -507,6 +521,7 @@
 				6A943CB41E0116AD00289749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A943CB51E0116AD00289749 /* Build configuration list for PBXNativeTarget "JLeeChartTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				6A943CB71E0116AD00289749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A943CB81E0116AD00289749 /* Build configuration list for PBXNativeTarget "JLeeChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				6A943CBA1E0116AD00289749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
