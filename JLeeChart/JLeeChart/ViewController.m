@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "JLRingChart.h"
+
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (strong, nonatomic)JLRingChart *bigRing;
