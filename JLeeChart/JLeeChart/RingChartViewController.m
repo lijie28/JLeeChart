@@ -6,10 +6,10 @@
 //  Copyright © 2016年 李杰. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RingChartViewController.h"
 #import "JLRingChart.h"
 
-@interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
+@interface RingChartViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (strong, nonatomic)JLRingChart *bigRing;
 
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation ViewController
+@implementation RingChartViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
