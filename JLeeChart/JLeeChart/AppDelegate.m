@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "HomePageViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,11 +19,14 @@
     //创建窗口
     self.window = [[UIWindow alloc]init];
     self.window.frame = [UIScreen mainScreen].bounds;
+    
     //初始化VC
-    ViewController *VC = [[ViewController alloc]init];
+    HomePageViewController *VC = [[HomePageViewController alloc]init];
     VC.view.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:VC];
     //设置窗口的根控制器
-    self.window.rootViewController = VC;
+    self.window.rootViewController = nvc;
     //显示窗口
     [self.window makeKeyAndVisible];
     

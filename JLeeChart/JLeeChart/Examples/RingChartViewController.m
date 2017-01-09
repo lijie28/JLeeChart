@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     _bigRing = [[JLRingChart alloc]initWithFrame:CGRectMake(0, 0, 230/2, 230/2)];
     _bigRing.center = CGPointMake(200, 300);

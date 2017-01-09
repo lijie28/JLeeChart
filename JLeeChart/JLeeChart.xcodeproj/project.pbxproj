@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6A4CA8CC1E0A312C0027AD9E /* JLRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CA8CB1E0A312C0027AD9E /* JLRingChart.m */; };
+		6A789D7A1E2360E80039130E /* JLLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A789D791E2360E80039130E /* JLLineChart.m */; };
+		6A789D811E237E140039130E /* JLColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A789D801E237E140039130E /* JLColumnChart.m */; };
+		6A789D901E237E940039130E /* ChartsExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A789D871E237E940039130E /* ChartsExample.m */; };
+		6A789D911E237E940039130E /* ColumnChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A789D891E237E940039130E /* ColumnChartViewController.m */; };
+		6A789D921E237E940039130E /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A789D8B1E237E940039130E /* HomePageViewController.m */; };
+		6A789D931E237E940039130E /* LingChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A789D8D1E237E940039130E /* LingChartViewController.m */; };
+		6A789D941E237E940039130E /* RingChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A789D8F1E237E940039130E /* RingChartViewController.m */; };
 		6A943C8A1E0116AD00289749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A943C891E0116AD00289749 /* main.m */; };
 		6A943C8D1E0116AD00289749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A943C8C1E0116AD00289749 /* AppDelegate.m */; };
-		6A943C901E0116AD00289749 /* RingChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A943C8F1E0116AD00289749 /* RingChartViewController.m */; };
 		6A943C951E0116AD00289749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A943C941E0116AD00289749 /* Assets.xcassets */; };
 		6A943CA31E0116AD00289749 /* JLeeChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A943CA21E0116AD00289749 /* JLeeChartTests.m */; };
 		6A943CAE1E0116AD00289749 /* JLeeChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A943CAD1E0116AD00289749 /* JLeeChartUITests.m */; };
@@ -36,12 +42,24 @@
 /* Begin PBXFileReference section */
 		6A4CA8CA1E0A312C0027AD9E /* JLRingChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRingChart.h; sourceTree = "<group>"; };
 		6A4CA8CB1E0A312C0027AD9E /* JLRingChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRingChart.m; sourceTree = "<group>"; };
+		6A789D781E2360E80039130E /* JLLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLLineChart.h; path = JLLineChart/JLLineChart.h; sourceTree = "<group>"; };
+		6A789D791E2360E80039130E /* JLLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLLineChart.m; path = JLLineChart/JLLineChart.m; sourceTree = "<group>"; };
+		6A789D7F1E237E140039130E /* JLColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLColumnChart.h; sourceTree = "<group>"; };
+		6A789D801E237E140039130E /* JLColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLColumnChart.m; sourceTree = "<group>"; };
+		6A789D861E237E940039130E /* ChartsExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartsExample.h; sourceTree = "<group>"; };
+		6A789D871E237E940039130E /* ChartsExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartsExample.m; sourceTree = "<group>"; };
+		6A789D881E237E940039130E /* ColumnChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnChartViewController.h; sourceTree = "<group>"; };
+		6A789D891E237E940039130E /* ColumnChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnChartViewController.m; sourceTree = "<group>"; };
+		6A789D8A1E237E940039130E /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		6A789D8B1E237E940039130E /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		6A789D8C1E237E940039130E /* LingChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LingChartViewController.h; sourceTree = "<group>"; };
+		6A789D8D1E237E940039130E /* LingChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LingChartViewController.m; sourceTree = "<group>"; };
+		6A789D8E1E237E940039130E /* RingChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingChartViewController.h; sourceTree = "<group>"; };
+		6A789D8F1E237E940039130E /* RingChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingChartViewController.m; sourceTree = "<group>"; };
 		6A943C851E0116AD00289749 /* JLeeChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLeeChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A943C891E0116AD00289749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A943C8B1E0116AD00289749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A943C8C1E0116AD00289749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6A943C8E1E0116AD00289749 /* RingChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RingChartViewController.h; sourceTree = "<group>"; };
-		6A943C8F1E0116AD00289749 /* RingChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingChartViewController.m; sourceTree = "<group>"; };
 		6A943C941E0116AD00289749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A943C991E0116AD00289749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A943C9E1E0116AD00289749 /* JLeeChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLeeChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,13 +104,39 @@
 			path = JLRingChart;
 			sourceTree = "<group>";
 		};
-		6A789D6B1E2313130039130E /* MyViewController */ = {
+		6A789D741E231F400039130E /* JLLineChart */ = {
 			isa = PBXGroup;
 			children = (
-				6A943C8E1E0116AD00289749 /* RingChartViewController.h */,
-				6A943C8F1E0116AD00289749 /* RingChartViewController.m */,
+				6A789D781E2360E80039130E /* JLLineChart.h */,
+				6A789D791E2360E80039130E /* JLLineChart.m */,
 			);
-			name = MyViewController;
+			name = JLLineChart;
+			sourceTree = "<group>";
+		};
+		6A789D7E1E237E140039130E /* JLColumnChart */ = {
+			isa = PBXGroup;
+			children = (
+				6A789D7F1E237E140039130E /* JLColumnChart.h */,
+				6A789D801E237E140039130E /* JLColumnChart.m */,
+			);
+			path = JLColumnChart;
+			sourceTree = "<group>";
+		};
+		6A789D851E237E940039130E /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				6A789D861E237E940039130E /* ChartsExample.h */,
+				6A789D871E237E940039130E /* ChartsExample.m */,
+				6A789D8A1E237E940039130E /* HomePageViewController.h */,
+				6A789D8B1E237E940039130E /* HomePageViewController.m */,
+				6A789D881E237E940039130E /* ColumnChartViewController.h */,
+				6A789D891E237E940039130E /* ColumnChartViewController.m */,
+				6A789D8C1E237E940039130E /* LingChartViewController.h */,
+				6A789D8D1E237E940039130E /* LingChartViewController.m */,
+				6A789D8E1E237E940039130E /* RingChartViewController.h */,
+				6A789D8F1E237E940039130E /* RingChartViewController.m */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 		6A943C7C1E0116AD00289749 = {
@@ -118,12 +162,10 @@
 		6A943C871E0116AD00289749 /* JLeeChart */ = {
 			isa = PBXGroup;
 			children = (
+				6A789D851E237E940039130E /* Examples */,
+				6A789D7E1E237E140039130E /* JLColumnChart */,
+				6A789D741E231F400039130E /* JLLineChart */,
 				6A4CA8C91E0A312C0027AD9E /* JLRingChart */,
-				6A943C8B1E0116AD00289749 /* AppDelegate.h */,
-				6A943C8C1E0116AD00289749 /* AppDelegate.m */,
-				6A789D6B1E2313130039130E /* MyViewController */,
-				6A943C941E0116AD00289749 /* Assets.xcassets */,
-				6A943C991E0116AD00289749 /* Info.plist */,
 				6A943C881E0116AD00289749 /* Supporting Files */,
 			);
 			path = JLeeChart;
@@ -132,6 +174,10 @@
 		6A943C881E0116AD00289749 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A943C8B1E0116AD00289749 /* AppDelegate.h */,
+				6A943C8C1E0116AD00289749 /* AppDelegate.m */,
+				6A943C941E0116AD00289749 /* Assets.xcassets */,
+				6A943C991E0116AD00289749 /* Info.plist */,
 				6A943C891E0116AD00289749 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -286,10 +332,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A789D921E237E940039130E /* HomePageViewController.m in Sources */,
+				6A789D941E237E940039130E /* RingChartViewController.m in Sources */,
 				6A4CA8CC1E0A312C0027AD9E /* JLRingChart.m in Sources */,
-				6A943C901E0116AD00289749 /* RingChartViewController.m in Sources */,
+				6A789D901E237E940039130E /* ChartsExample.m in Sources */,
+				6A789D911E237E940039130E /* ColumnChartViewController.m in Sources */,
+				6A789D931E237E940039130E /* LingChartViewController.m in Sources */,
+				6A789D7A1E2360E80039130E /* JLLineChart.m in Sources */,
 				6A943C8D1E0116AD00289749 /* AppDelegate.m in Sources */,
 				6A943C8A1E0116AD00289749 /* main.m in Sources */,
+				6A789D811E237E140039130E /* JLColumnChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
