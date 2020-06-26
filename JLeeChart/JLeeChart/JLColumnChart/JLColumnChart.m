@@ -41,7 +41,6 @@
 -(UIView *)bgView{
     if (!_bgView) {
         _bgView = [[UIView alloc]initWithFrame:CGRectMake((self.frame.size.width )/2 -view_distance, LAB_HEIGHT, (_num-1)*_Xmargin, self.chartScrollView.frame.size.height-LAB_HEIGHT)];
-        _bgView.backgroundColor = [UIColor yellowColor];
     }
     
     return _bgView;
