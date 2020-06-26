@@ -6,10 +6,10 @@
 //  Copyright © 2016年 李杰. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RingChartViewController.h"
 #import "JLRingChart.h"
 
-@interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
+@interface RingChartViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (strong, nonatomic)JLRingChart *bigRing;
 
@@ -17,10 +17,11 @@
 
 @end
 
-@implementation ViewController
+@implementation RingChartViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     _bigRing = [[JLRingChart alloc]initWithFrame:CGRectMake(0, 0, 230/2, 230/2)];
     _bigRing.center = CGPointMake(200, 300);
